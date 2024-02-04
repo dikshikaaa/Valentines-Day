@@ -34,8 +34,26 @@
 }
 /* Custom class for text-4xl my-4 container */
 .text-container {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 2.25rem; /* Equivalent to text-4xl in tailwindcss */
   margin-top: 1rem; /* Equivalent to my-4 in tailwindcss */
   margin-bottom: 1rem; /* Equivalent to my-4 in tailwindcss */
+}
+
+.centered-container {
+  display: flex;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  height: 100vh;
+  margin: 0;
+}
+
+.github-link {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #007bff; /* Set the color as needed */
+  text-decoration: none;
 }
