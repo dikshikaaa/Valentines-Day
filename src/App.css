@@ -1,42 +1,41 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.valentine-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+/* Custom class for Yes button styles */
+.yes-button {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #a7efb8; /* bg-green-500 */
+  color: #fff; /* text-white */
+  font-weight: bold; /* font-bold */
+  padding: 8px 16px; /* py-2 px-4 */
+  border-radius: 8px; /* rounded */
+  margin-right: 8px; /* mr-4 */
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.yes-button:hover {
+  background-color: #4f7457; /* hover:bg-green-700 */
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Custom class for No button styles */
+.no-button {
+  background-color: #c90d0d; /* bg-red-500 */
+  color: #fff; /* text-white */
+  font-weight: bold; /* font-bold */
+  padding: 8px 16px; /* py-2 px-4 */
+  border-radius: 8px; /* rounded */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.no-button:hover {
+  background-color: #c82333; /* hover:bg-red-700 */
 }
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+/* Custom class for text-4xl my-4 container */
+.text-container {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2.25rem; /* Equivalent to text-4xl in tailwindcss */
+  margin-top: 1rem; /* Equivalent to my-4 in tailwindcss */
+  margin-bottom: 1rem; /* Equivalent to my-4 in tailwindcss */
 }
