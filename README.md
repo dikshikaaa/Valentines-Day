@@ -11,7 +11,7 @@ Trust me when I say your crush won't say NO!
 
 
 
-###React + TypeScript + Vite
+### React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
