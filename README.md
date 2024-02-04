@@ -1,4 +1,17 @@
-# React + TypeScript + Vite
+
+# Valentine's Day Experiment 💖
+
+Love is in the air, and so is code! 💻
+
+## Description
+
+This React application is a Valentine's Day experiment featuring a cute bear and an invitation to be your Valentine. Share some love and enjoy the animations!
+
+Trust me when I say your crush won't say NO!
+
+
+
+###React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
