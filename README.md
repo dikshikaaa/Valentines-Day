@@ -5,11 +5,20 @@ Love is in the air, and so is code! 💻
 
 ## Description
 
-This React application is a Valentine's Day experiment featuring a cute bear and an invitation to be your Valentine. Share some love and enjoy the animations!
+This React application is a Valentine's Day experiment featuring a cute bear and an invitation to be your Valentine. 
 
 Trust me when I say your crush won't say NO!
 
+It displays a playful question: "Will you be my Valentine?" accompanied by two response options: a "Yes" button and a "No" button. If the user tries to press "No," the button insists and cleverly avoids being clicked by saying changing no to a new response like "Are you sure" or"You're breaking my heart" and more, encouraging the user to eventually click "Yes." Upon agreeing, the webpage celebrates the acceptance with a cute GIF. Share some love and enjoy the animations!
 
+##Contributions
+Contributions to improve the project are welcome. Please follow these steps to contribute:
+
+Fork the repository.
+- Create a new branch for your feature (git checkout -b feature/SomethingNew).
+- Commit your changes (git commit -m 'Add some SomethingNew').
+- Push to the branch (git push origin feature/SomethingNew).
+- Open a Pull Request.
 
 ### React + TypeScript + Vite
 
