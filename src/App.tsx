@@ -12,22 +12,22 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "No",
-      "Are you sure?",
-      "Really sure?",
-      "Think again!",
+      "Ayaw",
+      "Ayaw kunga ?",
+      "Oo nga ayaw ko?",
+      "Pag isipan mo!",
       "Last chance!",
-      "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
-      "Are you absolutely certain?",
+      "Talagang ayaw mo?",
+      "Pagsisisihan mo to!",
+      "Bigyan isa pagkakataon!",
+      "Sigurado kana talaga?",
       "This could be a mistake!",
-      "Have a heart!",
-      "Don't be so cold!",
+      "Puso para sayo!",
+      "Nanlalamig kanaba!",
       "Change of heart?",
       "Wouldn't you reconsider?",
       "Is that your final answer?",
-      "You're breaking my heart ;(",
+      "Sinasaktan mo ang puso ko ;(",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -47,7 +47,7 @@ export default function Page() {
         {yesPressed ? (
           <>
             <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-            <div className="text-container">Ok yay!!!</div>
+            <div className="text-container">Okay ILOVEYOU MWAHH!!!</div>
           </>
         ) : (
           <>
