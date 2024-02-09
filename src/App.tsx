@@ -34,15 +34,7 @@ export default function Page() {
   };
 
   return (
-    <div className="centered-container">
-      <a
-        href="https://github.com/dikshikaaa/Valentine-s-day-experiment"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="github-link"
-      >
-        Visit Source Code on GitHub
-      </a>
+    <div className="centered-container">      
       <div className="valentine-container">
         {yesPressed ? (
           <>
