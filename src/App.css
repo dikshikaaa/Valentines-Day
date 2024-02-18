@@ -57,3 +57,36 @@
   color: #007bff; /* Set the color as needed */
   text-decoration: none;
 }
+/*scroll bar starts*/
+*::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #DCE7E1;
+  border: 6px double #FFFFFF;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #FCC5DF;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #FCC5DF;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #CF3E6E;
+  border: 2px double #FFFFFF;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #FC4985;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #FC4985;
+}
+/*scroll bar ends*/
